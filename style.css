@@ -8,7 +8,25 @@
     background-color: rgb(0, 255, 0);
  }
  body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* these are defaults but you can import fonts from google for free @fonts.google.com! */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Consolas';
+    color: white;
  }
- 
+.flex-container{
+   display: flex 
+}
+.background{
+   background-image: url('images/background.jpg');
+}
+.border{
+   border: 5px solid white; 
+}
+p{
+   font-family: Courier; 
+   color: white;
+}
+.synthwave{
+   font-family: arial; 
+   background: -webkit-linear-gradient(#e99ca7, #b45507);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
